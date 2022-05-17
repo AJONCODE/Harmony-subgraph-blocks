@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: rinkeby
+    network: mainnet
     source:
-      address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
+      address: "0x9E6FAC4809bABC1A3575aeC1DB3155888b15ffA7"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
